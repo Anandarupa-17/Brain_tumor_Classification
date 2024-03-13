@@ -26,7 +26,9 @@ Normalization: The pixel values of the images are normalized to a range between 
 The CNN model is trained on the preprocessed MRI images. The dataset is split into training and testing sets to evaluate the model's performance. The model is trained using backpropagation and optimized using the Adam optimizer. The accuracy of the model on the training and testing sets is monitored during training.
 
 # Evaluation
-The performance of the CNN model is evaluated using metrics such as accuracy, precision, recall, and F1-score on the testing set. Additionally, visualizations such as confusion matrices and classification reports may be generated to assess the model's performance across different classes.
+The performance of the CNN model is evaluated using metrics such as accuracy, precision, recall, and F1-score on the testing set. The accuracy of the model is **90%**, indicating its effectiveness in classifying brain tumors.
+
+Additionally, visualizations such as confusion matrices and classification reports may be generated to assess the model's performance across different classes.
 
 # Usage
 To use the CNN model for brain tumor classification:
